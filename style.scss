@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+* {
+  box-sizing: border-box;
+}    
+
+body {
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 0px 20px #aaaaaa;
+  background-color:hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+  padding: 15px;
+  width: 100%;
+  max-width: 1440px;
+  height: 900px;
+  background: url(images/pattern-background-desktop.svg) no-repeat center top fixed; 
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  background: url(images/illustration-hero.svg) no-repeat top; 
+  width: 100%;
+  max-width: 411px;
+  height: 627px;
+  border-radius: 25px;
+  background-color: white;
+  -webkit-box-shadow: -1px 11px 25px -3px rgba(56,41,224,0.57); 
+  box-shadow: -1px 11px 25px -3px rgba(56,41,224,0.57);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.order{
+  margin-top: 220px;
+  width: 90%;
+  max-width: 269px;
+  height: 176px;
+      h1{
+      color: #253351;
+      text-shadow: none;
+      }
+    
+    }
+    
+    p{
+      color: #8E919A;
+      text-shadow: none;
+      strong{
+        color: #253351;
+      }
+    }
+
+
+    
+.annual{
+  width: 90%;
+  max-width: 319px;
+  height: 88px;  
+  background-color: #F8F9FE;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -10px;
+  
+    p{
+      margin-left: -40px;
+    }
+ }
+
+ .payment{
+    width: 90%;
+    max-width: 319px;
+    height: 88px; 
+    margin-top: 30px; 
+
+      button{
+        width: 100%;
+        max-width: 319px;
+        height: 45px; 
+        border: none;
+        border-radius: 12px; 
+        background-color: #3829E0;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+        -webkit-box-shadow: -1px 11px 25px -3px rgba(56,41,224,0.57); 
+        box-shadow: -1px 11px 25px -3px rgba(56,41,224,0.57);
+      }
+
+      p{
+      
+      margin-top: 25px;  
+      font-weight: 700;
+      color: #8E919A;
+      text-shadow: none;
+      }
+ }
+
+
+ 
